@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(bg-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    position: absolute;
+    top: 15%;
+    left: 600px;
+    height: 600px;
+    width: 380px;
+    border-radius: 20px;
+    box-shadow:  1px 1px 10px 1px rgba(0, 0, 0, 0.566);
+}
+.login{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+.emailname{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 1.2em;
+}
+.passname{
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 1.2em;
+
+}
+.trans{
+    position: relative;
+    left: 40px;
+    border-bottom: 1px solid;
+    width: 310px;
+}
+
+.material-symbols-outlined{
+    position: relative;
+    top: 8px;
+
+}
+.info{
+    position: relative;
+    right: 5px;
+    margin-top: 10px;
+    width: 280px;
+    height: 15px;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+}
+input { outline: none; }
+::placeholder{
+    color: black;
+    font-weight: bold;
+    opacity: 0.5;
+}
+.trans{
+    transition: all 0.5s;
+}
+.trans:hover{
+    transform: scale(1.05);
+}
+.forgot{
+    margin-top: 10px;
+    margin-left: 230px;
+    font-size: 0.9em;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    margin-top: 45px;
+    border: none;
+    height: 40px;
+    width: 250px;
+    background: rgb(2,0,36);
+    border-radius: 30px;
+    margin-left: 60px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.btn:hover{
+    background: rgb(131,58,180);}
+
+.social{
+    position: relative;
+    top: 35px;
+    left: 120px;
+    }
+.sociallogo{
+    position: relative;
+    display: flex;
+    top: 55px;
+    gap: 10px;
+    left: 110px;
+    font-size: 45px;
+}
